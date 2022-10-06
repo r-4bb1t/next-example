@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MealType } from "../constant/type";
+import { MealType } from "../constants/type";
 import styles from "../styles/Meal.module.css";
 
 export const Meal = ({ meal }: { meal: MealType }) => {

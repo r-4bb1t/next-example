@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BookType } from "../constant/type";
+import { BookType } from "../constants/type";
 import styles from "../styles/Book.module.css";
 
 export const Book = ({ book }: { book: BookType }) => {
